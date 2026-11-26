@@ -1,4 +1,5 @@
 {
+    "css.lint.unknownAtRules": "ignore",
     "workbench.colorCustomizations": {
         "activityBar.background": "#053610",
         "titleBar.activeBackground": "#074B17",

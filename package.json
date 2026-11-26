@@ -1,5 +1,19 @@
 {
+  "name": "mythiorapy",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix \"Backend folder\" && npm install --prefix \"Frontend folder\"",
+    "dev:backend": "npm run dev --prefix \"Backend folder\"",
+    "dev:frontend": "npm run dev --prefix \"Frontend folder\"",
+    "build": "npm run build --prefix \"Frontend folder\"",
+    "lint": "npm run lint --prefix \"Frontend folder\"",
+    "start": "npm start --prefix \"Backend folder\""
+  },
   "dependencies": {
-    "@react-oauth/google": "^0.13.5"
+    "@tailwindcss/vite": "^4.3.3",
+    "gsap": "^3.15.0",
+    "lucide-react": "^1.78.0",
+    "ogl": "^1.0.11",
+    "tailwindcss": "^4.3.3"
   }
 }

@@ -1,0 +1,69 @@
+/*Separate presentation adjustments. The shared MentalHealth.css and Settings.css remain unchanged.*/
+.mh-page,
+.mh-settings {
+  font-family: "Alan Sans", "Trebuchet MS", sans-serif;
+}
+.mh-settings {
+  background: #0c0d14;
+  color: #eeeaf8;
+  min-height: 100vh;
+}
+.mh-settings-sidebar {
+  background: #11121b;
+}
+.mh-status {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 40;
+  max-width: 380px;
+  background: #302641;
+  border: 1px solid #66518b;
+  color: #e8ddfa;
+  border-radius: 10px;
+  padding: 13px 17px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28);
+  font-size: 12px;
+}
+.mh-font-small {
+  font-size: 14px;
+}
+.mh-font-medium {
+  font-size: 16px;
+}
+.mh-font-large {
+  font-size: 18px;
+}
+.mh-settings.mh-dark {
+  background: #0c0d14;
+  color: #eeeaf8;
+}
+.mh-settings.mh-light {
+  background: #f3f1f7;
+  color: #272333;
+}
+.mh-settings.mh-light .mh-settings-sidebar {
+  background: #ece7f4;
+  border-right-color: #ddd5e8;
+}
+.mh-settings.mh-light .mh-settings-brand h2,
+.mh-settings.mh-light .mh-heading h2,
+.mh-settings.mh-light .mh-card h3,
+.mh-settings.mh-light .mh-setting-info h4,
+.mh-settings.mh-light .mh-settings-header h1 {
+  color: #272333;
+}
+.mh-settings.mh-light .mh-card,
+.mh-settings.mh-light .mh-settings-content {
+  background: #faf9fc;
+  color: #272333;
+}
+.mh-settings.mh-light .mh-card {
+  border-color: #ddd5e8;
+}
+.mh-settings.mh-light .mh-card input,
+.mh-settings.mh-light .mh-card select {
+  background: #fff;
+  color: #272333;
+  border-color: #d8d0e4;
+}
